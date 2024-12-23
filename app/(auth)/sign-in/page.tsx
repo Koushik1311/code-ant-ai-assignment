@@ -104,7 +104,7 @@ export default function SignInPage() {
             {socialSignin.map((social) => (
               <li key={social.label} className="w-full">
                 <Link
-                  href="#"
+                  href={social.href}
                   className="flex items-center justify-center gap-4 py-4 border rounded-md w-full hover:bg-gray-200 transition-colors duration-300"
                 >
                   <Image
