@@ -11,7 +11,9 @@ export default async function page({
   // Get the total number of repositories in the repositoryData array
   const totalRepositories = repositoryData.length;
 
-  const searchTerm = (await searchParams.search?.toLowerCase()) ?? "";
+  const { search } = await searchParams;
+
+  const searchTerm = search?.toLowerCase() ?? "";
 
   // Filter the repositories based on the search term
   const filteredRepositories = repositoryData.filter(
