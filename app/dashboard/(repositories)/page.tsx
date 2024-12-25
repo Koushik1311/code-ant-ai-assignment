@@ -6,7 +6,7 @@ import { Plus, RefreshCw } from "lucide-react";
 export default async function page({
   searchParams,
 }: {
-  searchParams: { search: string };
+  searchParams: Promise<{ search: string }>;
 }) {
   // Get the total number of repositories in the repositoryData array
   const totalRepositories = repositoryData.length;
