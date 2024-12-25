@@ -102,6 +102,7 @@ export default function MobileNavBar() {
                   <Link
                     href={link.href}
                     className="flex items-center gap-2 py-2 px-3 w-full"
+                    onClick={() => setIsOpen(false)}
                   >
                     <link.icon size={20} color="#414651" />
                     <span className="text-base font-semibold text-[#414651]">
