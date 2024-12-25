@@ -15,9 +15,7 @@ Live demo: [CodeAnt AI Demo](https://code-ant-ai-assignment-nu.vercel.app/)
 - Responsive design optimized for all devices
 - Interactive dashboard interface
 - Smooth animations and transitions
-- Modern UI components
-- Dark/Light mode support
-- Real-time data visualization
+- Optimized UI/UX using Next.js features
 
 ## Technologies Used
 
