@@ -1,4 +1,12 @@
-import { BookText, Cloud, CodeXml, House, Settings } from "lucide-react";
+import {
+  BookText,
+  Cloud,
+  CodeXml,
+  House,
+  LogOut,
+  Phone,
+  Settings,
+} from "lucide-react";
 
 export const dashboardLinks = [
   {
@@ -25,5 +33,16 @@ export const dashboardLinks = [
     label: "Settings",
     icon: Settings,
     href: "/dashboard/settings",
+  },
+
+  {
+    label: "Support",
+    icon: Phone,
+    href: "#",
+  },
+  {
+    label: "Log out",
+    icon: LogOut,
+    href: "/sign-in",
   },
 ];

@@ -2,7 +2,6 @@
 
 import { dashboardLinks } from "@/constants/dashboard-link";
 import { cn } from "@/lib/utils";
-import { LogOut, Phone } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import UserSelect from "./UserSelect";
@@ -24,7 +23,7 @@ export default function LeftBar() {
 
           {/* links */}
           <ul className="flex flex-col items-start w-full">
-            {dashboardLinks.map((link, index) => (
+            {dashboardLinks.slice(0, 5).map((link, index) => (
               <li key={index} className="w-full">
                 <Link
                   href={link.href}
@@ -44,22 +43,19 @@ export default function LeftBar() {
         </div>
 
         {/* bottom */}
-        <div className="flex flex-col items-start justify-between w-full">
-          <Link
-            href="#"
-            className="flex items-center justify-start gap-2 text-base font-semibold px-3 py-3 w-full rounded-md hover:bg-gray-200 transition-colors duration-300 text-[#414651]"
-          >
-            <Phone size={18} />
-            <span>Support</span>
-          </Link>
-          <Link
-            href="/sign-in"
-            className="flex items-center justify-start gap-2 text-base font-semibold px-3 py-3 w-full rounded-md hover:bg-gray-200 transition-colors duration-300 text-[#414651]"
-          >
-            <LogOut size={18} />
-            <span>Log out</span>
-          </Link>
-        </div>
+        <ul className="flex flex-col items-start justify-between w-full">
+          {dashboardLinks.slice(5, 7).map((link, index) => (
+            <li key={index} className="w-full">
+              <Link
+                href={link.href}
+                className="flex items-center justify-start gap-2 text-base font-semibold px-3 py-3 w-full rounded-md hover:bg-gray-200 transition-colors duration-300 text-[#414651]"
+              >
+                <link.icon size={18} />
+                <span>{link.label}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
