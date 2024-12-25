@@ -8,10 +8,7 @@ This project is a frontend implementation for CodeAnt AI's product, built accord
 
 Live demo: [CodeAnt AI Demo](https://code-ant-ai-assignment-nu.vercel.app/)
 
-<video width="640" height="360" controls>
-  <source src="./public/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Demo Video](https://img.youtube.com/vi/yj5OqUxjfnE/0.jpg)](https://youtu.be/yj5OqUxjfnE)
 
 ## Features
 
