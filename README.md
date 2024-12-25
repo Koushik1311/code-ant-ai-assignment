@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Developer Assignment - CodeAnt AI
 
-## Getting Started
+This project is a frontend implementation for CodeAnt AI's product, built according to the provided Figma design. The implementation features a responsive and user-friendly interface developed using modern web technologies.
 
-First, run the development server:
+**Note:** A landing page has been added for better navigation, featuring the company logo and two buttons (Sign in & Dashboard).
+
+## Demo
+
+Live demo: [CodeAnt AI Demo](https://code-ant-ai-assignment-nu.vercel.app/)
+
+<video width="640" height="360" controls>
+  <source src="./public/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Features
+
+- Responsive design optimized for all devices
+- Interactive dashboard interface
+- Smooth animations and transitions
+- Modern UI components
+- Dark/Light mode support
+- Real-time data visualization
+
+## Technologies Used
+
+- NextJS(ReactJS)
+- Tailwind CSS
+- Framer Motion (for animation)
+- Lucide React (for icons)
+- Figma (for design reference)
+
+## Installation
+
+To get the project running locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Koushik1311/code-ant-ai-assignment.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd code-ant-ai-assignment
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   #or
+   yarn
+   #or
+   pnpm install
+   #or
+   bun install
+   ```
+4. Start the project locally:
+   ````bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    # or
+    bun dev
+    ```
+   The application will be available at `http://localhost:3000`
+   ````
+
+## Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+code-ant-ai/
+├── app/              # Next.js pages and routes
+│   ├── auth/        # Authentication related pages
+│   ├── dashboard/   # Dashboard components
+│   └── settings/    # Settings pages
+├── components/       # Reusable React components
+│   ├── ui/          # UI components (buttons, inputs)
+│   ├── layout/      # Layout components
+│   └── shared/      # Shared components
+├── data/            # Static data and TypeScript types
+├── font/            # Custom typography files
+├── lib/             # Core utilities and shared logic
+├── public/          # Static assets (images, icons)
+└── utils/           # Feature-specific utilities
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
