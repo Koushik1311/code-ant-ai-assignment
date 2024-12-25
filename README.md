@@ -69,11 +69,8 @@ code-ant-ai/
 │   ├── dashboard/   # Dashboard components
 │   └── settings/    # Settings pages
 ├── components/       # Reusable React components
-│   ├── ui/          # UI components (buttons, inputs)
-│   ├── layout/      # Layout components
-│   └── shared/      # Shared components
 ├── data/            # Static data and TypeScript types
-├── font/            # Custom typography files
+├── font/            # Local typography files
 ├── lib/             # Core utilities and shared logic
 ├── public/          # Static assets (images, icons)
 └── utils/           # Feature-specific utilities
