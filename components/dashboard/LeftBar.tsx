@@ -12,7 +12,7 @@ export default function LeftBar() {
 
   return (
     <div>
-      <div className="flex flex-col items-start justify-between px-4 pt-5 pb-6 min-h-screen">
+      <div className="flex flex-col items-start justify-between px-4 pt-5 pb-6 min-h-screen border-r border-[#E9EAEB]">
         {/* top */}
         <div className="flex flex-col items-start gap-5">
           {/* logo */}
