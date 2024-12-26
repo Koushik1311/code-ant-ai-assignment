@@ -16,6 +16,7 @@ YouTube video demo: [![Demo Video](https://img.youtube.com/vi/yj5OqUxjfnE/0.jpg)
 - Interactive dashboard interface
 - Smooth animations and transitions
 - Optimized UI/UX using Next.js features
+- Search feature
 
 ## Technologies Used
 
