@@ -68,11 +68,8 @@ To get the project running locally, follow these steps:
 ```bash
 code-ant-ai/
 ├── app/              # Next.js pages and routes
-│   ├── auth/        # Authentication related pages
-│   ├── dashboard/   # Dashboard components
-│   └── settings/    # Settings pages
 ├── components/       # Reusable React components
-├── data/            # Static data and TypeScript types
+├── data/            # Static data
 ├── font/            # Local typography files
 ├── lib/             # Core utilities and shared logic
 ├── public/          # Static assets (images, icons)
